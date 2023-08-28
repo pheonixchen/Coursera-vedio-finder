@@ -1,4 +1,4 @@
-#找视频
+//找视频
 var videoElement = document.querySelector('video');
 if (videoElement) {
   var videoURL = videoElement.src;
@@ -9,7 +9,7 @@ if (videoElement) {
   downloadLink.click();
   document.body.removeChild(downloadLink);
 }
-#倍速视频
+//倍速视频
 var videoElement = document.querySelector('video');
 if (videoElement) {
   videoElement.playbackRate = 2.0;
